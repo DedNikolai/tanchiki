@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/ffm1o-ilLwA.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.game-over {
+    position: absolute;
+    top: 200%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(73, 71, 63, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    background-image: url("../img/depositphotos_82996118-stock-photo-texture-of-sand-wall.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.gameboard {
+    display: flex;
+    justify-content: center;
+}
+
+.border {
+    width: 660px;
+    height: 30px;
+    background-image: url("../img/wall.png");
+    margin: 0 auto;
+}
+
+.vertical {
+    width: 30px;
+    height: 600px;
+    margin: 0;
+}
+.block {
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    background-image: url("../img/wall.png");
+}
+
+.vertical-left {
+    width: 30px;
+    height: 150px;
+    left: 35%;
+    top: 40%;
+}
+
+.vertical-rigth {
+    width: 30px;
+    height: 150px;
+    left: 60%;
+    top: 40%;
+}
+
+.centr-centr {
+    width: 130px;
+    height: 30px;
+    left: 40%;
+    top: 50%;
+}
+
+.tree {
+    background-image: url("../img/kisspng-landscape-architecture-site-plan-tree-tree-top-view-5abc67d9802cd0.797458251522296793525.png");
+    position: absolute;
+    background-size: cover;
+}
+
+.tree1 {
+    width: 30px;
+    height: 30px;
+    top: 20%;
+    left: 20%;
+}
+.tree2 {
+    width: 60px;
+    height: 60px;
+    top: 25%;
+    left: 20%;
+}
+.tree3 {
+    width: 50px;
+    height: 50px;
+    top: 20%;
+    left: 27%;
+}
+.tree4 {
+    width: 20px;
+    height: 20px;
+    top: 30%;
+    left: 20%;
+}
+
+.tree5 {
+    width: 30px;
+    height: 30px;
+    top: 55%;
+    left: 85%;
+}
+
+.tree6 {
+    width: 40px;
+    height: 40px;
+    top: 60%;
+    left: 80%;
+}
+
+.tree7 {
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 81%;
+}
+
+.tree8 {
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    left: 70%;
+}
+
+.tree9 {
+    width: 60px;
+    height: 60px;
+    top: 80%;
+    left: 50%;
+}
+
+.tree10 {
+    width: 40px;
+    height: 40px;
+    top: 83%;
+    left: 40%;
+}
+
+.tree11 {
+    width: 60px;
+    height: 60px;
+    top: 80%;
+    left: 45%;
+}
+
+.tree12 {
+    width: 30px;
+    height: 30px;
+    top: 85%;
+    left: 40%;
+}
+
+.tree13 {
+    width: 50px;
+    height: 50px;
+    top: 76%;
+    left: 48%;
+}
+
+.tank {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-image: url("../img/user-tank.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: rotate(0deg);
+    left: 0;
+    top: 95%;
+}
+
+.bomba {
+    background-color: #0c1927;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+
+.enemy-tank {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-image: url("../img/enemy-tank.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: rotate(0deg);
+}
+
+.score {
+    font-size: 64px;
+    color: black;
+    position: absolute;
+}
+
+.bombs {
+    font-size: 64px;
+    color: black;
+    position: absolute;
+    top: 10%;
+}
+
+.left-top {
+    left: 10%;
+    top: 10%;
+}
+
+.rigth-top {
+    left: 75%;
+    top: 10%;
+}
+
+.left-bottom {
+    left: 10%;
+    top: 85%;
+}
+
+.rigth-bottom {
+    left: 75%;
+    top: 85%;
+}
+
+.text {
+    font-size: 68px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #de2b24;
+
+}
+
+.restart-btn {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    background-color: #3cb878;
+    color: #fff;
+    cursor: pointer;
+}
+
+.game-over-container {
+    text-align: center;
+}
+
+.the-end {
+    top: 0;
+}
