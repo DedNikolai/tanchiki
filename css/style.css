@@ -26,8 +26,8 @@ body {
 }
 
 .container {
-    width: 600px;
-    height: 600px;
+    width: 510px;
+    height: 510px;
     position: relative;
     background-image: url("../img/depositphotos_82996118-stock-photo-texture-of-sand-wall.jpg");
     background-size: cover;
@@ -40,7 +40,7 @@ body {
 }
 
 .border {
-    width: 660px;
+    width: 570px;
     height: 30px;
     background-image: url("../img/wall.png");
     margin: 0 auto;
@@ -48,7 +48,7 @@ body {
 
 .vertical {
     width: 30px;
-    height: 600px;
+    height: 510px;
     margin: 0;
 }
 .block {

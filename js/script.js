@@ -73,8 +73,8 @@ function block(blockName) {
                 '    </div>'
             $('.container').prepend(htmlString)
             $($('.enemy-tank')[0]).addClass(this.className)
-            let randomTop = parseInt(Math.random()*20)*30;
-            let randomLeft = parseInt(Math.random()*20)*30;
+            let randomTop = parseInt(Math.random()*17)*30;
+            let randomLeft = parseInt(Math.random()*17)*30;
             $(`.${this.className}`).css({'top' : `${randomTop}px`, 'left' : `${randomLeft}px`})
         }
 
