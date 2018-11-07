@@ -1,4 +1,8 @@
-game();
+$(document).ready(function () {
+    $(document).imagesLoaded(function () {
+        game();
+    })
+})
 
 function game() {
     // Инициализация переменных
@@ -211,7 +215,7 @@ function block(blockName) {
         if (event.keyCode == 32 && bombs > 0) {
             let bomba = new bomb(bombCounter, '.tank', userTank.direction, enemies)
             bombs--;
-            $('.bombs').text('Bombs' + ' ' + `${bombs}`)
+            $('.bombs-text').text('x' + ' ' + `${bombs}`)
             bomba.moveBomb();
             bombCounter++;
         } else {
@@ -263,8 +267,8 @@ function block(blockName) {
                 enemyCounter++;
                 score ++;
                 bombs +=2;
-                $('.score').text('Killed' + ' ' + `${score}`)
-                $('.bombs').text('Bombs' + ' ' + `${bombs}`)
+                $('.score__text').text('x' + ' ' + `${score}`)
+                $('.bombs__text').text('х' + ' ' + `${bombs}`)
                 setTimeout(createEnemi, 1000, enemyCounter)
                 return true;
             }

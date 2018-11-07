@@ -245,7 +245,8 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     color: #de2b24;
-
+    font-weight: 700;
+    -webkit-text-stroke: 1px #fff;
 }
 
 .restart-btn {
@@ -266,4 +267,42 @@ body {
 
 .the-end {
     top: 0;
+}
+
+.score__icon, .bombs__icon {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.score__icon {
+    background-image: url("../img/killed-icon.png");
+}
+
+.bombs__icon {
+    background-image: url("../img/bombs-icon.png");
+}
+
+.score {
+    font-size: 64px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-shadow: #0c1927 0 0 8px;
+}
+
+.bombs {
+    font-size: 64px;
+    color: #fff;
+    text-shadow: #0c1927 0 0 8px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.table {
+    margin-top: 10px;
+    margin-left: 10px;
 }
